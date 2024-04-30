@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <title>Creaturepedia</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="../Images/Creaturepedia.png">
+
+</head>
+<body class="s-body">
+        <!-- <header class="s-header" > -->
+          <header class="headerld">
+            <div class="navbarld">
+            <img src="../Images/Creaturepedia.png" alt="Logo" class="logold">
+            <a href="./Home.html" class="nav-itemld">Home</a>
+            <a href="#" class="nav-itemld">About</a>
+            <form action="#" class="search-formld">
+            <input type="text" placeholder="Search..." class="search-barld">
+            <button type="submit" class="search-buttonld">Search</button>
+            </form>
+            </div>  
+        </header>
+      
+<div class="sstext">
+  <h1 class="sheader1"> OCTOPUS </h1>
+</div>
+
+
+
+  <table class="stable">
+    <tr class="stable-header">
+      <td colspan="2"><b><h1 class="sheader1">WHAT IS AN OCTOPUS ?</h1></td>
+    </tr>
+    <tr>
+      <td class="stitle">Description</td>
+      <td class="scontent">Octopuses are marine cephalopods known for their bulbous head, large intelligent eyes, and eight flexible arms. They have a soft body and are equipped with chromatophores, allowing them to change color and texture for camouflage or communication.</td>
+    </tr>
+    <tr class="str">
+      <td class="stitle">Habitat</td>
+      <td class="scontent">Octopuses inhabit various marine environments, including coral reefs, rocky crevices, and the open ocean. They are found in temperate and tropical waters worldwide.</td>
+    </tr>
+    <tr class="str">
+      <td class="stitle">Lifecycle</td>
+      <td class="scontent">Octopuses have a relatively short lifespan, typically living only 1-2 years. They reproduce through sexual reproduction, with females laying thousands of eggs in protected dens. After hatching, the young octopuses undergo a period of rapid growth.</td>
+    </tr>
+    <tr class="str">
+      <td class="stitle">Feeding</td>
+      <td class="scontent">Octopuses are carnivorous predators, feeding on a variety of prey including crustaceans, fish, mollusks, and sometimes other octopuses. They use their arms and sharp beaks to capture and consume their food.</td>
+    </tr>
+    <tr class="str">
+      <td class="stitle">Importance</td>
+      <td class="scontent">Octopuses play a significant role in marine ecosystems as predators, helping to control populations of prey species. They also serve as prey for larger predators and contribute to the overall biodiversity of the ocean.</td>
+    </tr>
+  </table>
+
+<div class="stext">
+   <h1 class="sheader1"> Take a quick look.. </h1>
+   </div>
+   
+
+ 
+<div class="sflip-card">
+  <div class="sflip-card-inner">
+    <div class="sflip-card-front">
+      <img src="../Images/oct.png" alt="Octopus Image" style="width:300px;height:300px;" class="soct">
+    </div>
+    <div class="sflip-card-back">
+      <h2>Octopus Facts</h2>
+                <p class="scard"><strong>Species:</strong> Octopus cyanea</p>
+                <p class="scard"><strong>Behavior:</strong> Highly adaptive, capable of intricate problem-solving behaviors</p>
+                <p class="scard"><strong>Coloration:</strong> Ability to rapidly change color and texture for camouflage</p>
+                <p class="scard"><strong>Intelligence:</strong> Possesses remarkable cognitive abilities, with a complex nervous     system</p>
+                <p class="scard"><strong>Reproduction:</strong> Typically semelparous, with females laying thousands of eggs in a single clutch</p>
+    </div>
+  </div>
+</div>
+
+
+<div id="svideoContainer" draggable="true">
+  <video width="500" controls>
+    <source src="../Media/Octopus.mp4" type="video/mp4" class="soctvid">
+  </video>
+
+<label class="octlabel" for="sound"> Octopus Sound!
+   <audio controls>
+    <source src="../Media/Octopus.mp3"
+     type="audio/mpeg">
+    </audio></label>
+</div>
+
+<div id="siframe" style="text-align:center;"><h3 class="sheader1"> HERE'S MORE INFO ABOUT OCTOPUS. </h3>
+    <iframe src="https://www.nationalgeographic.com/animals/invertebrates/facts/common-octopus" width="700px" height="300" frameborder="0" allowfullscreen></iframe>
+</div>
+
+
+
+<div id="simageContainer">
+  <img id="image1" class="simage" src="../Images/Oct3.jpg" alt="Image 1">
+</div>
+
+
+
+ <div class="sfooter">
+            <a href="./feedback.html" class="sRating">Rating</a>
+            <h3 class="scontact">Contact Us: </h3>
+            <img src="../Images/email.png" alt="Logo" class="sgmail">
+            <p class="semail">creaturepedia@gmail.com</p>
+     </div> 
+     <script>
+      //oct salma
+if(document.getElementById('image1'))
+image.addEventListener('mouseover', function() {
+  if(document.getElementById('image1'))
+  document.getElementById('image1').src = '../Images/Oct2.png';
+});
+if(document.getElementById('image1'))
+image.addEventListener('mouseout', function() {
+  if(document.getElementById('image1'))
+  document.getElementById('image1').src = '../Images/Oct3.jpg';
+});
+     </script>
+
+
+<script src="../JavaScript/script.js"></script>
+</body>
+</html>

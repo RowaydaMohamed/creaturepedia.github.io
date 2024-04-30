@@ -1,0 +1,3668 @@
+.penguin-body {
+  margin: 0;
+  padding: 0;
+  background-image: url('../Images/penguin\ back\ ground.jpg'); 
+  background-size: cover;
+  background-position: center;
+  height: 130vh;
+  display: flex;
+  flex-direction: column; /* Ensure the body uses flexbox in column direction */
+}
+
+.penguin-header {
+  position: fixed; /* Fixed positioning to stick to the top */
+  top: 0; /* Stick to the top */
+  width: 100%;
+  z-index: 1000; /* Ensure the navbar is above other content */
+  
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px; /* Add padding to the navbar */
+
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  margin-right: auto;
+}
+
+.nav-item {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+  font-weight: bold;
+}
+
+.nav-item:hover {
+  color: orange;
+}
+
+.search-form {
+  display: flex;
+}
+
+.search-bar {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+.search-button {
+  padding: 8px 12px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #121212;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  }
+  
+  .search-button:hover {
+      background-color: rgb(80, 194, 255);
+  }
+  .containerP {
+      display: flex;
+    }
+    
+    section {
+      flex: 1;
+      padding: 20px;
+    }
+    
+    .left-sectionP, .right-sectionP {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 60px;
+    }
+    
+    .left-sectionP img, .right-sectionP img {
+      border-radius: 50%; /* Makes the image circular */
+      width: 200px; /* Adjust the size as needed */
+      height: 200px; /* Adjust the size as needed */
+      object-fit: cover; 
+      transition: border-radius 0.3s ease;
+    }
+    .left-sectionP img:hover, .right-sectionP img:hover {
+      transform: scale(1.1); /* Scale the image slightly on hover */
+      border-radius: 15%; /* Change border-radius on hover */
+  }
+    .penguin-habitat {
+      background-color: rgba(255, 255, 255, 0.8); /* header and paragraphs background*/
+      border-radius: 12px;
+    }
+    .penguin-lifespan {
+      background-color: rgba(255, 255, 255, 0.8); /* header and paragraphs background*/
+      border-radius: 12px;
+    }
+    .penguin-diet {
+      background-color: rgba(255, 255, 255, 0.8); /* header and paragraphs background*/
+      border-radius: 12px;
+    }
+    .penguin-paragraph {
+      background-color: rgba(255, 255, 255, 0.8); /* header and paragraphs background*/
+      font-style: italic;
+      font-size: larger;
+      font-weight: 500;
+        border-radius: 4px;
+    }
+  
+    
+    .middle-sectionP {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 60px;
+    }
+    
+    .penvideo {
+      width: 80%;
+      max-width: 600px;
+    }
+    iframe{
+      width: 80%;
+      max-width: 600px;
+      height: 170px;
+
+    }
+    audio{
+      padding: 20px;
+    }
+    
+  .penfooter{
+      width: 97.5%;
+      background-color: #4FA8DB;
+      overflow:visible;
+      height: 50px; 
+      padding: 20px 20px; 
+      font-size: 18px; 
+      line-height: 30px; 
+      
+  }
+  .pencontact {
+      float: left;
+      margin-bottom: 100px;
+      margin-top: 10px;
+  }
+  .penemail {
+      background-color: #4FA8DB;
+      color: #000000;
+      margin-bottom: 100px;
+      margin-top: 10px;
+  }
+
+  .pengmail {
+      float: left;
+      margin-right: 0px;
+      margin-bottom: 100px;
+      margin-top: 15px;
+      width: 30px;
+      height: 20px;
+  }
+  .penRating {
+      float: right;
+      margin-bottom: 100px;
+      margin-top: 15px;
+      margin-right: 100px;
+      margin-left: 100px;
+      color: #000;
+      font-size: larger;
+      font-weight: bold;
+      text-decoration: none; 
+      transition: color 0s;
+  }
+  .penRating:hover {
+      color: red;
+  }
+
+  .AVRating {
+    float: right;
+    margin-bottom: 100px;
+    margin-top: 15px;
+    margin-right: 100px;
+    margin-left: 100px;
+    color: #000;
+    font-size: larger;
+    font-weight: bold;
+    text-decoration: none; 
+    transition: color 0s;
+}
+.AVRating:hover {
+    color: red;
+}
+
+.homebody {
+  background: linear-gradient(270deg, #6fa7db 29%, #71cade 56%, #d0ede1 85.5%);
+}
+
+header {
+background-color: transparent;
+}
+
+.search-button {
+padding: 8px 12px;
+background-color: #28a745; /* Orange color */
+color: #fff;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+background-color: #ff6600; /* Darker shade of orange on hover */
+}
+.navbar {
+display: flex;
+align-items: center;
+}
+
+.logo {
+width: 100px;
+height: auto;
+margin-right: auto;
+}
+
+.nav-item {
+margin-right: 20px;
+text-decoration: none;
+color: #333;
+transition: color 0.3s ease;
+}
+
+.nav-item:hover {
+color: #666;
+}
+
+.search-form {
+display: flex;
+}
+
+.search-bar {
+padding: 8px;
+border: 1px solid #ccc;
+border-radius: 4px;
+margin-right: 10px;
+}
+
+.special {
+  color: #000;
+  background-color: transparent;
+}
+.homelines {
+  background-color: transparent;
+}
+
+.main-content {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 20px;
+}
+
+.card {
+background-color: #fff;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+padding: 20px;
+}
+
+.card img {
+max-width: 100%;
+height: auto;
+}
+.greeting {
+  display: block;
+  margin: 0 auto;
+  border-color: #6fa7db;
+  color: #f60101;
+
+}
+
+.jolly-lodger-regular {
+  font-family: "Jolly Lodger", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.special {
+  font-size: x-large;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+.animals {
+  color: #000;
+  text-decoration: none; /* Remove underline from links */
+  transition: color 0s;
+  overflow: hidden;
+}
+
+.animals:hover {
+  color: red;
+}
+
+.image-description {
+  width: 30%; /* Adjust container width */
+  text-align: center;
+  overflow: hidden; /* Prevent content overflow */
+}
+.container {
+  display: flex;
+  justify-content: space-between; /* Adjust as needed */
+  width: 100%; /* Ensure the container spans the entire width */
+  margin-top: 100px;
+}
+.link {
+  text-decoration: none;
+  overflow: hidden;
+}
+.description {
+  padding: 10px;
+}
+
+/* Style the images to appear in an ellipse shape */
+.image-description img {
+  border-radius: 50%;
+  width: 70%; /* Ensure the image fills the container */
+  height: 45%; /* Maintain aspect ratio */
+  max-width: 100%; /* Prevent image overflow */
+}
+.homefooter{
+  width: 97.5%;
+  background-color: #4FA8DB;
+  overflow: hidden;
+  height: 50px; /* Adjust the height as needed */
+  padding: 20px 20px; /* Adjust the padding */
+  font-size: 18px; /* Adjust the font size */
+  line-height: 30px; /* Adjust the line height */
+  
+}
+.contact {
+  float: left;
+  margin-bottom: 100px;
+  margin-top: 10px;
+}
+.email {
+  color: #000000;
+  margin-bottom: 100px;
+  margin-top: 10px;
+}
+.gmail {
+  float: left;
+  margin-right: 0px;
+  margin-bottom: 100px;
+  margin-top: 15px;
+  width: 30px;
+  height: 20px;
+}
+.Rating {
+  float: right;
+  margin-bottom: 100px;
+  margin-top: 15px;
+  margin-right: 100px;
+  margin-left: 100px;
+  color: #000;
+  font-size: larger;
+  font-weight: bold;
+  text-decoration: none; 
+  transition: color 0s;
+}
+.Rating:hover {
+  color: red;
+}
+.orca-background {
+    background-image: url('../Images/sea_background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+.jolly-lodger-regular {
+  margin-bottom: 0%;
+}
+#various-backgrounds {
+  background-color: blue; /* Default color */
+  /* color: white;
+}
+#various-backgrounds:active {
+  background-color: rgb(0, 166, 255); /* Color when clicked */
+}
+.orcatitle {
+  background-color: transparent;
+}
+.orca-img {
+  width: 400px;
+  height: auto;
+  margin-bottom: 20px;
+}
+#myVideo {
+  width: 40%;
+  height: auto;
+  margin-top: 10px;
+}
+.orcatable {
+  float: right;
+  width: 50%;
+}
+
+.orcatd {
+  border: 1px solid black;
+  padding: 20px;
+  width: 100px;
+  height: 50px;
+  text-align: left;
+  perspective: 1000px; /* Add perspective for 3D effect */
+}
+.orcatd:hover {
+  background-color: #d0ede1;
+}
+.map {
+  width: 35%;
+  margin-left: 30px;
+}
+.flip-card {
+  float: right;
+  margin-right: 50px;
+  background-color: transparent;
+  width: 30%;
+  height: 300px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  background-color: transparent;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  overflow: hidden; 
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: rgb(120, 156, 191);
+  color: white;
+  transform: rotateY(180deg);
+}
+.text-overlay {
+  position: absolute; /* Position the text overlay relative to the container */
+  top: 50%; /* Position the text at the vertical center */
+  left: 50%; /* Position the text at the horizontal center */
+  transform: translate(-50%, -50%); /* Center the text both vertically and horizontally */
+  background-color: transparent; /* Semi-transparent background */
+  padding: 20px; /* Add some padding around the text */
+}
+.orcadoc {
+  background-color: rgb(120, 156, 191);
+}
+
+.text-overlay h2 {
+  margin: 0; /* Remove default margin */
+  color: black; /* Set text color */
+  text-align: center; /* Center-align the text */
+}
+.zeiad {    
+  background: linear-gradient(270deg, #FFA500 0%, #90EE90 100%);
+}
+
+header {
+  background-color: transparent;
+}
+
+.Lsearch-button {
+  padding: 8px 12px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.Lsearch-button:hover {
+  background-color: #cc5500; /* Darker shade of orange on hover */
+}
+
+.Lnavbar {
+  display: flex;
+  align-items: center;
+}
+
+.Llogo {
+  width: 100px;
+  height: auto;
+  margin-right: auto;
+}
+
+.Lnav-item {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.Lnav-item:hover {
+  color: #666;
+}
+
+.Lsearch-form {
+  display: flex;
+}
+
+.Lsearch-bar {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.Lmain-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.Lcard {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.Lcard img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%; /* Circular effect */
+}
+
+.Ljolly-lodger-regular {
+  font-family: "Jolly Lodger", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.Lspecial {
+  font-size: x-large;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.Lanimals {
+  color: #000;
+  text-decoration: none; /* Remove underline from links */
+  transition: color 0s;
+  overflow: hidden;
+}
+
+.Lanimals:hover {
+  color: red;
+}
+
+
+.Lcontainer {
+  display: flex;
+  justify-content: space-between; /* Adjust as needed */
+  width: 100%; /* Ensure the container spans the entire width */
+  margin-top: 100px;
+}
+
+.Llink {
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.Ldescription {
+  padding: 10px;
+}
+
+.Lfooter {
+  width: 97.5%;
+  background-color: #4CAF50; /* Green background */
+  overflow: hidden;
+  height: 50px;
+  padding: 10px 20px; /* Adjusted padding */
+  font-size: 16px; /* Adjusted font size */
+  line-height: 20px; /* Adjusted line height */
+  color: white; /* Text color */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+
+.Lcontact {
+  color: #000000;
+  float: left;
+  margin-bottom: 100px;
+  margin-top: 10px;
+  background-color: #4CAF50;
+}
+
+.Lemail {
+  color: #000000;
+  margin-bottom: 100px;
+  margin-top: 7px;
+  background-color: #4CAF50;
+}
+
+.Lgmail {
+  float: left;
+  margin-right: 0px;
+  margin-bottom: 110px;
+  margin-top: 10px;
+  width: 30px;
+  height: 20px;
+  background-color: #4CAF50;
+}
+
+.LRating {
+  float: right;
+  margin-bottom: 100px;
+  margin-top: 10px;
+  margin-right: 100px;
+  margin-left: 100px;
+  color: #000;
+  font-size: larger;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0s;
+}
+
+.LRating:hover {
+  color: red;
+}
+
+.Lsmooth-edge {
+  border-radius: 10px; 
+  overflow: hidden; 
+  transition: border-radius 0.3s ease; 
+}
+
+.Lsmooth-edge:hover {
+  border-radius: 20px;
+}
+.Lsmooth-edge {
+  transition: border-radius 0.3s ease; /* Smooth transition effect */
+}
+.Lhover-row:hover {
+  background-color: white; /* Change to desired background color */
+}
+.Lvideo-description {
+  font-size: 40px;
+}
+
+.Lvideo-description:hover {
+  border: 2px solid white;
+  padding: 5px; /* Add padding to prevent the text from moving when the border appears */
+}
+.birds-background {
+  background-image: url('../Images/leaves background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.img-map {
+  width: 35%;
+  height: 450px;
+  float: left;
+  margin-top: 5S0px;
+  margin-bottom: 150px;
+}
+.iframe {
+  float: right;
+  width: 35%;
+  height: 450px;
+}
+.avian-menu {
+  color: yellow;
+  text-decoration: underline;
+}
+.labels {
+  font-weight: bold;
+  font-size: medium;
+  padding: 15px;
+  text-align: center;
+}
+.avian-greeting {
+  width: 500px;
+  height: 80px;
+  margin-top: 20px;
+  background-color: #6a9a3d;
+  cursor: pointer;
+  color: #f0f0f0;
+  font-size: large;
+}
+.avfooter{
+  width: 97.5%;
+  background-color: #4fdb85;
+  overflow: hidden;
+  height: 50px; /* Adjust the height as needed */
+  padding: 20px 20px; /* Adjust the padding */
+  font-size: 18px; /* Adjust the font size */
+  line-height: 30px; /* Adjust the line height */
+  
+}
+
+.eaglebody {
+    
+  background: linear-gradient(270deg, #9370DB 0%, #87CEEB 100%);
+  background-repeat: no-repeat;
+  background-size:cover;
+
+
+}
+
+header {
+  background-color: transparent;
+}
+
+.Esearch-button {
+  padding: 8px 12px;
+  background-color: #87CEEB;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.Esearch-button:hover {
+  background-color: #cc5500; /* Darker shade of orange on hover */
+}
+
+.Enavbar {
+  display: flex;
+  align-items: center;
+}
+
+.Elogo {
+  width: 100px;
+  height: auto;
+  margin-right: auto;
+}
+
+.Enav-item {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.Enav-item:hover {
+  color: #666;
+}
+
+.Esearch-form {
+  display: flex;
+}
+
+.Esearch-bar {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+.Eimage-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5px;
+}
+
+.Eleft-column, .Eright-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.Eleft-column img, .Eright-column img {
+  margin-bottom: 20px;
+  height: 250px; /* Adjust the height as needed */
+}
+.Eleft-column {
+  margin-right: 0px; /* Adjust the margin as needed */
+}
+
+.Eright-column {
+  margin-left: 25px; /* Adjust the margin as needed */
+}
+.Etext-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  text-align: center; /* Center text */
+}
+
+.Etext-content h1 {
+  margin-top: 0px;
+  margin-bottom: 10px; /* Add some margin at the bottom of the heading */
+  font-size: 40px;
+}
+
+.Etext-content p1 {
+  text-align: justify; /* Justify the text */
+  margin-left: 40px;
+  font-size: 20px;
+}
+.Etext-content h2 {
+  margin-bottom: 20px; /* Add some margin at the bottom of the heading */
+  font-size: 40px;
+}
+
+.Etext-content p2 {
+  text-align: justify; /* Justify the text */
+  margin-left: 40px;
+  font-size: 20px;
+}
+.Etext-content h3 {
+  margin-bottom: 20px; /* Add some margin at the bottom of the heading */
+  font-size: 40px;
+}
+
+.Etext-content p3 {
+  text-align: justify; /* Justify the text */
+  margin-left: 40px;
+  font-size: 20px;
+}
+.Etext-content h4 {
+  margin-bottom: 20px; /* Add some margin at the bottom of the heading */
+  font-size: 40px;
+}
+
+.Etext-content p4 {
+  text-align: justify; /* Justify the text */
+  margin-left: 40px;
+  font-size: 20px;
+}
+.Etext-content h5 {
+  margin-bottom: 10px; /* Add some margin at the bottom of the heading */
+  font-size: 40px;
+}
+.Etext-content p5 {
+  margin-top: 5px; /* Adjust margin-top to bring it closer */
+  text-align: justify; /* Justify the text */
+  margin-left: 40px;
+  margin-bottom: 0px;
+  font-size: 20px;
+}
+.Etext-content h6 {
+  margin-bottom: 40px; /* Add a bottom margin to the h6 element */
+  font-size: 40px;
+}
+.Etext-content p6 {
+  text-align: justify; /* Justify the text */
+  margin-left: 40px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  margin-left: 10px;
+}
+.Emain-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.Ecard {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.Ecard img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%; /* Circular effect */
+}
+
+.Ejolly-lodger-regular {
+  font-family: "Jolly Lodger", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* h1 {
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 30px;
+} */
+
+.Especial {
+  font-size: x-large;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.Eanimals {
+  color: #000;
+  text-decoration: none; /* Remove underline from links */
+  transition: color 0s;
+  overflow: hidden;
+}
+
+.Eanimals:hover {
+  color: red;
+}
+
+
+.Econtainer {
+  display: flex;
+  justify-content: space-between; /* Adjust as needed */
+  width: 100%; /* Ensure the container spans the entire width */
+  margin-top: 100px;
+}
+
+.Elink {
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.Edescription {
+  padding: 10px;
+}
+
+.Efooter {
+  width: 97.5%;
+  background-color: #87CEEB; /* Sky blue background */
+  overflow: hidden;
+  height: 50px;
+  padding: 10px 20px; /* Adjusted padding */
+  font-size: 16px; /* Adjusted font size */
+  line-height: 20px; /* Adjusted line height */
+  color: white; /* Text color */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+
+
+.Econtact {
+  color: #000000;
+  background-color: #87CEEB;
+  float: left;
+  margin-bottom: 100px;
+  margin-top: 10px;
+}
+
+.Eemail {
+  color: #000000;
+  margin-bottom: 100px;
+  margin-top: 7px;
+  background-color: #87CEEB;
+}
+
+.Egmail {
+  float: left;
+  margin-right: 0px;
+  margin-bottom: 110px;
+  margin-top: 10px;
+  width: 30px;
+  height: 20px;
+  background-color: #87CEEB;
+}
+
+.ERating {
+  float: right;
+  margin-bottom: 100px;
+  margin-top: 5px;
+  margin-right: 100px;
+  margin-left: 100px;
+  color: #000;
+  font-size: larger;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0s;
+  background-color: #87CEEB;
+}
+
+.ERating:hover {
+  color: red;
+}
+
+.Esmooth-edge {
+  border-radius: 10px; 
+  overflow: hidden; 
+  transition: border-radius 0.3s ease; 
+}
+
+.Esmooth-edge:hover {
+  border-radius: 20px;
+}
+.Esmooth-edge {
+  transition: border-radius 0.3s ease;
+} /* Smooth transition effect */
+
+.avcontact {
+  float: left;
+  margin-bottom: 100px;
+  margin-top: 10px;
+  background-color: #4fdb85;
+}
+.avemail {
+  color: #000000;
+  margin-bottom: 100px;
+  margin-top: 10px;
+  background-color: #4fdb85;
+}
+.avgmail {
+  float: left;
+  margin-right: 0px;
+  margin-bottom: 100px;
+  margin-top: 15px;
+  width: 30px;
+  height: 20px;
+  background-color: #4fdb85;
+}
+.custom-body-polarbear {
+  margin: 0;
+  padding: 0;
+  background-image: url('../Images/polar\ bear\ back\ ground.jpg'); 
+  background-size: cover;
+  background-position: center;
+   background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  background-repeat: no-repeat; 
+  flex-direction: column;
+}
+
+.bearheader {
+  position: fixed; /* Fixed positioning to stick to the top */
+  top: 0; /* Stick to the top */
+  width: 100%;
+  z-index: 1000; /* Ensure the navbar is above other content */
+  
+}
+   
+.right-sectionO img {
+  max-width: 50%; 
+  height: auto; 
+  display: block; /* Ensure the photo is treated as a block element */
+  margin: 0 auto 5px; 
+  float: right; /* Float the photo to the right */
+  margin-top: 20px;
+}
+.right-sectionO video{
+  margin-top: 60px; 
+}
+.bearcaption {
+  color: #192f9d;
+  font-weight: 800;
+  font-size: larger;
+  font-style: italic;
+  border-radius: 10px;
+  padding: 3px; 
+  background-color: rgb(80, 194, 255);
+}
+
+
+/* Additional styles for the table */
+  .bear-table {
+  background-color: rgba(255, 255, 255, 0.8);
+  float: left;
+  margin-right:30px;
+  margin-bottom:50px;
+  display: table;
+  width: 50%;
+  font-weight:bold;
+  clear: both; /* Clear the float to ensure the table starts below the photo */
+}
+  
+  th.bear-tt,td.bear-tt {
+      border: 3px solid  ;
+      border-collapse: collapse;
+      
+      border-radius: 10px;
+      border-color: #a9b4da;
+      text-align:center;
+  }
+  
+  tr.bear-tr:hover{
+      background-color: rgb(80, 194, 255); ;
+  } 
+
+
+  .bearfooter{
+      width: 97.5%;
+      background-color: #4FA8DB;
+
+      overflow:visible;
+      height: 50px;
+      padding: 20px 20px; 
+      font-size: 18px;
+      line-height: 30px; 
+      
+  }
+  .bearcontact {
+      float: left;
+      margin-bottom: 100px;
+      margin-top: 10px;
+  }
+  .bearemail {
+      color: #000000;
+      margin-bottom: 100px;
+      margin-top: 10px;
+  }
+  .beargmail {
+      float: left;
+      margin-right: 0px;
+      margin-bottom: 100px;
+      margin-top: 15px;
+      width: 30px;
+      height: 20px;
+  }
+  .bearRating {
+      float: right;
+      margin-bottom: 100px;
+      margin-top: 15px;
+      margin-right: 100px;
+      margin-left: 100px;
+      color: #000;
+      font-size: larger;
+      font-weight: bold;
+      text-decoration: none; 
+      transition: color 0s;
+  }
+  .bearRating:hover {
+      color: red;
+  } */
+  
+
+.v-header {
+  background-color: transparent;
+  }
+
+.search-button {
+  padding: 8px 12px;
+  background-color: #51c77a; /* Orange color */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #cc5500; /* Darker shade of orange on hover */
+}
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  margin-right: auto;
+  right:10px;
+  }
+
+.nav-item {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+   font-weight:bold;
+}
+
+.nav-item:hover {
+  color: orange;
+}
+
+.search-form {
+  display: flex;
+}
+
+.search-bar {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.vcaption {
+  text-align: center; 
+   font-family: "Jolly Lodger", system-ui;
+ font-size: 50px;
+}
+
+
+
+.vcontainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: bottom;
+    height: 100vh;
+}
+
+.vcircular-image {
+    width: 250px; /* Set the width and height of the circular container */
+    height: 200px;
+    border-radius: 50%; /* Makes the container circular */
+    overflow: hidden; /* Clips the content outside the circular shape */
+}
+
+.vcircular-image img {
+    width: 100%; /* Make the image fill the circular container */
+    height: auto;
+    display: block;
+}
+
+#octopus {
+   position: absolute;
+   top:40%;
+   left:5%;
+}
+
+#turtle {
+   position: absolute;
+   top:70%;
+   left:40%; 
+}
+
+#whale {
+  position: relative;
+  left: 40%;
+  top:5%;
+}
+
+.voctopuscaption { 
+  position:absolute;
+  top:70%;
+  margin-left: 20px;
+}
+
+.voctopus-facts {
+  list-style-type: none; /* Remove default bullets */
+  padding-left: 20px; /* Add padding for indentation */
+  position: absolute;
+  top:80%;
+}
+
+.voctopus-facts > li {
+  margin-bottom: 10px; /* Spacing between list items */
+}
+
+.voctopus-facts > li:before {
+  content: ""; /* Add pseudo-element for square outline */
+  display: inline-block; /* Display as block element */
+  width: 8px; /* Set width of the square */
+  height: 8px; /* Set height of the square */
+  border: 2px solid black; /* Add border to create the frame */
+  margin-right: 10px; /* Space between square outline and text */
+}
+
+.vturtlecaption {
+   position: absolute;
+   top:100%;
+   left:43%; 
+ }
+
+.vgreen-turtle-facts {
+  list-style-type: none; /* Remove default bullets */
+  padding-left: 20px; /* Add padding for indentation */
+   position: absolute;
+   top:110%;
+   left:40%; 
+}
+
+.vgreen-turtle-facts > li {
+  margin-bottom: 10px; /* Spacing between list items */
+}
+
+.vgreen-turtle-facts > li:before {
+  content: ""; /* Add pseudo-element for square outline */
+  display: inline-block; /* Display as block element */
+  width: 8px; /* Set width of the square */
+  height: 8px; /* Set height of the square */
+  border: 2px solid black; /* Add border to create the frame */
+  margin-right: 10px; /* Space between square outline and text */
+}
+
+.vwhalecaption {
+  position:absolute;
+  left:80%;
+  top:72%;
+}
+
+  
+.vorca-whale-facts {
+  list-style-type: none; /* Remove default bullets */
+  padding-left: 20px; /* Add padding for indentation */
+  position:absolute;
+  left:73%;
+  top:80%;
+
+}
+
+.vorca-whale-facts > li {
+  margin-bottom: 10px; /* Spacing between list items */
+}
+
+.vorca-whale-facts > li:before {
+  content: ""; /* Add pseudo-element for square outline */
+  display: inline-block; /* Display as block element */
+  width: 8px; /* Set width of the square */
+  height: 8px; /* Set height of the square */
+  border: 2px solid black; /* Add border to create the frame */
+  margin-right: 10px; /* Space between square outline and text */
+}
+
+#vtyping-effect {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-align: center;
+  position: absolute;
+  top :50%;
+  left :35%;
+  font-size: 30px;
+  background-color: #ADD8E6;
+}
+
+.vfooter{
+  width: 96.4%;
+  position: absolute;
+  top:150%;
+  border-radius: 10px;
+  background-color: #4FA8DB;
+  overflow: hidden;
+  height: 50px; /* Adjust the height as needed */
+  padding: 20px 20px; /* Adjust the padding */
+  font-size: 18px; /* Adjust the font size */
+  line-height: 30px; /* Adjust the line height */
+  
+}
+.vcontact {
+  float: left;
+  margin-bottom: 100px;
+  margin-top: 10px;
+  background-color: #4FA8DB;
+}
+.vemail {
+  color: #000000;
+  margin-bottom: 100px;
+  margin-top: 10px;
+  background-color: #4FA8DB;
+}
+.vgmail {
+  float: left;
+  margin-right: 0px;
+  margin-bottom: 100px;
+  margin-top: 15px;
+  width: 30px;
+  height: 20px;
+  background-color: #4FA8DB;
+}
+.vRating {
+  float: right;
+  margin-bottom: 100px;
+  margin-top: 15px;
+  margin-right: 100px;
+  margin-left: 100px;
+  color: #000;
+  font-size: larger;
+  font-weight: bold;
+  text-decoration: none; 
+  transition: color 0s;
+  background-color: #4FA8DB;
+}
+.vRating:hover {
+  color: red;
+}
+
+/*saged atlantic puffin:*/
+
+/*-----------------rawan------------------------*/
+.bodyld {
+  background-image: url('../Images/land.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+ 
+}
+.headerld {
+background-color: transparent;
+
+}
+
+.search-buttonld {
+padding: 8px 12px;
+background-color: #51c77a; 
+color: #fff;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.search-buttonld:hover {
+background-color: #cc5500; 
+}
+.navbarld {
+display: flex;
+align-items: center;
+}
+
+.logold {
+width: 100px;
+height: auto;
+margin-right: auto;
+right:10px;
+}
+
+.nav-itemld {
+margin-right: 20px;
+text-decoration: none;
+color: #333;
+transition: color 0.3s ease;
+ font-weight:bold;
+}
+
+.nav-itemld:hover {
+color: orange;
+}
+
+.search-formld {
+display: flex;
+}
+
+.search-barld {
+padding: 8px;
+border: 1px solid #ccc;
+border-radius: 4px;
+margin-right: 10px;
+}
+.jolly-lodgerld {
+  font-family: "Jolly Lodger", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  text-align: center;
+  transition: transform 0.3 ease;
+  text-align: center;
+  width: 300px;
+  position: relative;
+  left: 590px;
+}
+.jolly-lodgerld:hover{
+  transform: scale(1.2);
+  text-shadow: 2px 2px 4px rgba(17, 132, 17, 0.642);
+}
+.qouteld{
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+.diversityld{
+  margin-left: 200px;
+  position:relative;
+  width: 400px;
+  text-align: center;
+  right:100px;
+}
+.diversityld:hover{
+  background-color: rgba(17, 132, 17, 0.642);
+  border-radius: 10px;
+}
+
+.divld{
+  font-family: "Montserrat", sans-serif;
+font-optical-sizing: auto;
+font-weight: 40px;
+font-style : normal;
+margin-left : 100px;
+position:relative;
+width: 400px;
+/* right:200px; */
+text-align: center;
+}
+.divld:hover{
+  background-color: rgba(17, 132, 17, 0.642);
+  border-radius: 10px;
+}
+.habitatesld {
+  width: 400px;
+  text-align: center;
+  float: right;
+  margin-right: 200px;
+  position: relative;
+  bottom:160px;
+}
+.habitatesld:hover{
+  background-color: rgba(17, 132, 17, 0.642);
+  border-radius: 10px;
+}
+.habld{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 40px;
+  font-style : normal;
+  margin-left : 100px;
+  position:relative;
+  width: 400px;
+  text-align: center;
+  left: 770px;
+  bottom: 90px;
+}
+.habld:hover {
+  background-color: rgba(17, 132, 17, 0.642);
+  border-radius: 10px;
+
+}
+.wlld {
+  width: 300px;
+  height: 300px;
+  border-radius:50% ;
+  position: relative;
+  left: 150px;
+}
+.wlldtext{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 60px;
+  font-style : normal;
+  margin-left : 100px;
+  width: 400px;
+  color: #fff;
+}
+.wlldtext:hover{
+  background-color: rgba(17, 132, 17, 0.642);
+  border-radius: 2px;
+}
+.aeld{
+  width: 300px;
+  height: 300px;
+  border-radius:50% ;
+  position: relative;
+  left:620px;
+}
+.aeldtext{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 60px;
+  font-style : normal;
+  width: 400px;
+  color: #fff;
+  float: right;
+  position: relative;
+  right: 150px;
+  bottom: 55px;
+  text-align: center;
+}
+.aeldtext:hover{
+  background-color: rgba(17, 132, 17, 0.642);
+  border-radius: 2px;
+}
+.gld{
+  width: 300px;
+  height: 300px;
+  border-radius:50% ;
+  position: relative;
+  left: 160px;
+}
+.pbld{
+  width: 300px;
+  height: 300px;
+  border-radius:50% ;
+  position: relative;
+  left: 630px;
+}
+
+.pbldtext{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 60px;
+  font-style : normal;
+  width: 400px;
+  color: #fff;
+  float: right;
+  position: relative;
+  right: 150px;
+  text-align: center;
+  bottom: 60px;
+}
+.pbldtext:hover{
+  background-color: rgba(17, 132, 17, 0.642);
+  border-radius: 2px;
+}
+.gldtext{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 60px;
+  font-style : normal;
+  width: 400px;
+  margin-left : 100px;
+  color: #fff;
+}
+.gldtext:hover{
+  background-color: rgba(17, 132, 17, 0.642);
+  border-radius: 2px;
+}
+.footerld{
+  width: 97.5%;
+  background-color: rgb(7, 90, 11,0.5);
+  overflow: hidden;
+  height: 50px; 
+  padding: 10px 20px; 
+  font-size: 16px; 
+  line-height: 20px; 
+  position: relative;
+   top: 100px; 
+    color: white; 
+border-radius: 10px; 
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.contactld {
+  float: left;
+  margin-bottom: 100px;
+  margin-top: 10px;
+}
+.emailld {
+  color: #ffffff;
+  margin-bottom: 100px;
+  margin-top: 10px;
+}
+.gmailld {
+  float: left;
+  margin-right: 0px;
+  margin-bottom: 100px;
+  margin-top: 15px;
+  width: 30px;
+  height: 20px;
+}
+.Ratingld {
+  float: right;
+  margin-bottom: 100px;
+  margin-top: 15px;
+  margin-right: 100px;
+  margin-left: 100px;
+  color: #f4f4f4;
+  font-size: larger;
+  font-weight: bold;
+  text-decoration: none; 
+  transition: color 0s;
+}
+.Ratingld:hover {
+  color: rgb(237, 242, 100);
+}
+
+/*------------------rawn ele--------------*/
+body {
+  background-image: url('../Images/savanna.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+header {
+background-color: transparent;
+
+}
+
+.search-button {
+padding: 8px 12px;
+background-color: #51c77a; 
+color: #fff;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+background-color: #cc5500; 
+}
+.navbar {
+display: flex;
+align-items: center;
+}
+
+.logo {
+width: 100px;
+height: auto;
+margin-right: auto;
+right:10px;
+}
+
+.nav-item {
+margin-right: 20px;
+text-decoration: none;
+color: #333;
+transition: color 0.3s ease;
+ font-weight:bold;
+}
+
+.nav-item:hover {
+color: orange;
+}
+
+.search-form {
+display: flex;
+}
+
+.search-bar {
+padding: 8px;
+border: 1px solid #ccc;
+border-radius: 4px;
+margin-right: 10px;
+}
+h1,h3{
+text-align: center;
+}
+.eletble{
+height: 130px;
+width: 80% ;
+justify-content: center;
+align-items: center;
+margin-left: 150px;
+margin-top: 75px;
+text-align:center;
+}
+.eletd{
+border: 3px solid rgb(16, 82, 23);
+border-collapse: collapse;
+border-radius: 6px ;
+height:50px;
+font-size: 15px;
+}
+.soundd{
+position:relative;
+top:-20px;
+}
+
+
+
+.eletd:hover{
+background-color:rgb(255, 255, 255,0.5);
+}    
+.ver{
+width: 300px; 
+height: 320px; 
+overflow: hidden;
+font-size: large;
+line-height: 1.5;
+margin-left:200px ;
+border-radius: 3px;
+text-align: center;
+}
+
+.beh{
+margin-top: 50px;
+margin-left: 200px;
+width: 300px;
+border-radius: 3px;
+text-align: center;
+}
+.beh:hover,.ver:hover{
+background-color: rgb(204, 204, 204,0.7);
+}
+
+.trunk{
+width: 600px;
+height: 400px;
+display: flex;
+float: right;
+position: relative;
+bottom: 390px;
+right: 100px;
+border-radius:4px ;
+}
+.verr{
+width: 350px; 
+height: 300px;
+display: flex;
+font-size: large;
+line-height: 1.7;
+border-radius: 3px;
+text-align: center;
+justify-content: center;
+}
+.diet{
+margin-top: 50px;
+width: 350px;
+border-radius: 3px;
+text-align: center;
+}
+.diet:hover,.verr:hover{
+background-color: rgb(204, 204, 204,0.7);
+}
+
+.all{
+position: relative;
+float: right;
+right: 270px;
+bottom: 430px;
+}
+
+.ele{
+width: 500px;
+height: 400px;
+margin-left: 150px;
+}
+
+.flash-card {
+width: 380px; 
+height: 480px;
+border: 4px solid rgba(2, 61, 9, 0.815);
+border-radius: 8px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+overflow: hidden;
+margin-left:120px;
+margin-top:100px;
+margin-bottom:0 ;
+padding-bottom: 0;
+}
+
+.flash-card .text {
+padding: 10px;
+/* text-align: center;*/
+line-height: 1.7;
+font-weight:bold;
+}
+.yarab{
+text-align: center;
+}
+.flash-card:hover{
+background-color: #e1d8d8b0;
+}
+.location{
+position: relative;
+float: right;
+bottom: 550px;
+right: 70px;
+margin-bottom:0 ;
+padding-bottom: 0;
+
+}
+.locationnn{
+border-radius: 10px;
+}
+
+.boxx {
+position: relative;
+height: 10vh; 
+top: 300px;
+align-items: center; 
+}
+.image-box {
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+width: 500px; 
+height: 400px; 
+overflow: hidden;
+border-radius: 6px;
+}
+
+.image-box img {
+display: none;
+width: 100%;
+height: 100%;
+}
+
+.image-box img.active {
+display: block;
+}
+.Click{
+padding: 10px 20px; 
+font-size: 16px; 
+background-color: #4CAF50; 
+color: white; 
+border: none; 
+border-radius: 5px; 
+cursor: pointer; 
+transition: background-color 0.3s ease;
+position: relative;
+left: 560px;
+top: 250px;
+}
+.Click:hover{
+  background-color: #1d401f; 
+}
+
+/*-----------------salma ash-------------*/
+/* salma parrot2.htm */
+.m-body {
+   background: linear-gradient(135deg, white, rgb(0, 100, 0));
+
+    background-attachment: fixed;  
+    background-size: cover;
+}
+
+
+.m-header {
+background-color: transparent;
+}
+
+
+.search-button {
+padding: 8px 12px;
+background-color: #28a745; 
+color: #fff;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+background-color: #ff6600; /* Darker shade of orange on hover */
+}
+.m-navbar {
+display: flex;
+align-items: center;
+}
+
+.logo {
+width: 100px;
+height: auto;
+margin-right: auto;
+}
+
+.nav-item {
+margin-right: 20px;
+text-decoration: none;
+color:white;
+transition: color 0.3s ease;
+}
+
+.nav-item:hover {
+color: #666;
+}
+
+.search-form {
+display: flex;
+}
+
+.search-bar {
+padding: 8px;
+border: 1px solid #ccc;
+border-radius: 4px;
+margin-right: 10px;
+}
+
+#cap{
+ text-align-last: center;
+ font-family: "Jolly Lodger", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size:30px;
+  color:#26812C;
+}
+
+.mslideshow-container {
+  position: relative;
+  max-width: 15%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.mslide {
+  display: none;
+}
+
+.mslide-image1 {
+  width: 100%; 
+  height: 200px; 
+  object-fit: fill;
+ }
+.mslide-image2 {
+  width: 100%; 
+  height: 200px; 
+  object-fit: fill; 
+}
+.mslide-image3 {
+  width: 100%; 
+  height: 200px; 
+  object-fit: fill;
+}
+.mslide-image4 {
+  width: 100%; 
+  height: 200px; 
+  object-fit: fill; 
+}
+
+.mcaption {
+ position: absolute;
+  bottom: 10px;
+  left: 4px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  font-size: 13px;
+}
+
+#mvideo-container {
+    max-width: 700px; /* Set the maximum width */
+    position: absolute;
+    top:35%;
+    left:32%;
+    }
+
+#mvideo-player {
+    width: 70%; /* Set the width to fill its container */
+    height: auto; /* Let the height adjust proportionally */
+    max-width: 100%; /* Ensure it doesn't exceed its container's width */
+    max-height: 300px; /* Set the maximum height */
+    border-radius: 10px;
+}
+
+#parrot1 {
+    max-width: 155px; 
+    position: absolute;
+    top: 40%;
+    left: 60%;
+     
+}
+
+.mimg1 {
+    width: 100%; /* Make the image fill its container */
+    height: auto; /* Let the height adjust proportionally */
+    display: block; /*Ensure the image behaves like a block element */
+    border-radius: 10px; /* Add rounded corners to the image */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add a shadow effect */
+    margin-top: -40px;
+}
+
+.mpar1-background {
+    background-color: #9AEB9F; /* Background color */
+    color: white; /* Text color */
+    padding: 10px; /* Add padding to the heading */
+    position: absolute;
+    width:500px;
+    right: 32%;
+    top: 64%;
+    border-radius: 10px; /* Add rounded corners to the heading */
+    text-align: center; /* Center the text horizontally */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.mpar1-background:hover {
+    background-color: rgba(154, 235, 159, 0.8); /* Background color with slight transparency on hover */
+}
+
+#mpar2-container {
+    background-image: url('../Images/parrotsalma.png'); /* Background image */
+    background-size: cover; /* Cover the entire background without repeating */
+    padding: 20px; /* Add padding to create space around the text */
+    border-radius: 10px; /* Add rounded corners */
+    width: 250px;
+    margin-top: 35px;
+}
+
+#mpar2 {
+    color: white; /* Text color */
+}
+
+.mpar2-header,mpar2-content {
+    padding: 10px; /* Add padding to the text */
+    text-align: center; /* Center the text horizontally */
+}
+
+ /* } */
+#mpar3 {
+   position: absolute;
+  right:25%;
+  padding: 10px;
+  background-color: #9AEB9F;
+  top: 98%;
+  cursor: pointer;
+   border-radius: 10px;
+   color:white;
+  width: 300px;
+
+ }
+
+.mcaption1 {
+  position: absolute;
+  right:25%;
+  padding: 10px;
+  background-color: #9AEB9F;
+  top: 98%;
+  cursor: pointer;
+   border-radius: 10px;
+   color:white;
+  width: 300px;
+}
+
+.m-caption2 {
+  position: absolute;
+  right:25%;
+  padding: 10px;
+  background-color: #9AEB9F;
+  top: 98%; 
+  cursor: pointer;
+   border-radius: 10px;
+   color:white;
+  width: 300px;
+}
+
+.hidden {
+  display: none;
+}
+
+
+#parrot2 {
+    width: 10%;
+    height: 30%;
+    position: absolute;
+    left: 27% ;
+    top: 110% ;
+    border-radius: 10px;
+}
+
+#parrot2c {
+     font-family: 'Brush Script MT', cursive;font-size: 22px;
+     position: absolute;
+     left: 26%;
+     top: 133%;
+     color: #26812C;
+}
+
+.parrot3-container {
+    position: absolute;
+    right: 5%;
+    top: 115%;
+    width: 200px; /* Set the width of the container */
+    height: 200px; /* Set the height of the container */
+    overflow: hidden; /* Hide overflowing content */
+    border-radius: 50%; /* Make the container circular */
+}
+
+.mcircular-image {
+    display: block;
+    width: 100%; /* Ensure the image fills the container horizontally */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+.mlist-container {
+    position: absolute;
+    background-color: rgba(192, 192, 192, 0.3); /* Slightly gray and transparent background */
+    padding: 10px;
+    width: 200px;
+    top: 48%;
+    right: 5%;
+    
+}
+
+.mtransparent-list {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0;
+    margin: 0;
+}
+
+.mtransparent-list li {
+    background-color: rgba(255, 255, 255, 0.7); /* Slightly transparent white background */
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+
+.mfooter{
+  width: 96.4%;
+ position: absolute;
+ top: 150%;
+ border-radius: 10px;
+  background-color: #1ec76a;
+  overflow: hidden;
+  height: 50px; /* Adjust the height as needed */
+  padding: 20px 20px; /* Adjust the padding */
+  font-size: 18px; /* Adjust the font size */
+  line-height: 30px; /* Adjust the line height */
+  
+}
+.mcontact {
+  background-color: #1ec76a;
+
+  float: left;
+  margin-bottom: 100px;
+  margin-top: 10px;
+}
+.memail {
+  background-color: #1ec76a;
+
+  color: #000000;
+  margin-bottom: 100px;
+  margin-top: 10px;
+}
+.mgmail {
+  background-color: #1ec76a;
+
+  float: left;
+  margin-right: 0px;
+  margin-bottom: 100px;
+  margin-top: 15px;
+  width: 30px;
+  height: 20px;
+}
+.mRating {
+  background-color: #1ec76a;
+
+  float: right;
+  margin-bottom: 100px;
+  margin-top: 15px;
+  margin-right: 100px;
+  margin-left: 100px;
+  color: #000;
+  font-size: larger;
+  font-weight: bold;
+  text-decoration: none; 
+  transition: color 0s;
+}
+.mRating:hover {
+  color: red;
+}
+
+.marinebody {
+  background: linear-gradient(to bottom right, #7fffd4, #ffffff, #1e90ff);  
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bodyld {
+  background-image: url('../Images/land.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+ 
+}
+.headerld {
+background-color: transparent;
+
+}
+
+.search-buttonld {
+padding: 8px 12px;
+background-color: #51c77a; 
+color: #fff;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.search-buttonld:hover {
+background-color: #cc5500; 
+}
+.navbarld {
+display: flex;
+align-items: center;
+}
+
+.logold {
+width: 100px;
+height: auto;
+margin-right: auto;
+right:10px;
+}
+
+.nav-itemld {
+margin-right: 20px;
+text-decoration: none;
+color: #333;
+transition: color 0.3s ease;
+ font-weight:bold;
+}
+
+.nav-itemld:hover {
+color: orange;
+}
+
+.search-formld {
+display: flex;
+}
+
+.search-barld {
+padding: 8px;
+border: 1px solid #ccc;
+border-radius: 4px;
+margin-right: 10px;
+}
+.jolly-lodgerld {
+  font-family: "Jolly Lodger", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  text-align: center;
+  transition: transform 0.3 ease;
+  text-align: center;
+  width: 300px;
+  position: relative;
+  left: 590px;
+}
+.jolly-lodgerld:hover{
+  transform: scale(1.2);
+  text-shadow: 2px 2px 4px rgba(17, 132, 17, 0.642);
+}
+.qouteld{
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+.diversityld{
+  margin-left: 200px;
+  position:relative;
+  width: 400px;
+  text-align: center;
+  right:100px;
+}
+.diversityld:hover{
+  background-color: rgba(17, 132, 17, 0.642);
+  border-radius: 10px;
+}
+
+.divld{
+  font-family: "Montserrat", sans-serif;
+font-optical-sizing: auto;
+font-weight: 40px;
+font-style : normal;
+margin-left : 100px;
+position:relative;
+width: 400px;
+/* right:200px; */
+text-align: center;
+}
+.divld:hover{
+  background-color: rgba(17, 132, 17, 0.642);
+  border-radius: 10px;
+}
+.habitatesld {
+  width: 400px;
+  text-align: center;
+  float: right;
+  margin-right: 200px;
+  position: relative;
+  bottom:160px;
+}
+.habitatesld:hover{
+  background-color: rgba(17, 132, 17, 0.642);
+  border-radius: 10px;
+}
+.habld{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 40px;
+  font-style : normal;
+  margin-left : 100px;
+  position:relative;
+  width: 400px;
+  text-align: center;
+  left: 770px;
+  bottom: 90px;
+}
+.habld:hover {
+  background-color: rgba(17, 132, 17, 0.642);
+  border-radius: 10px;
+
+}
+.wlld {
+  width: 300px;
+  height: 300px;
+  border-radius:50% ;
+  position: relative;
+  left: 150px;
+}
+.wlldtext{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 60px;
+  font-style : normal;
+  margin-left : 100px;
+  width: 400px;
+  color: #fff;
+}
+.wlldtext:hover{
+  background-color: rgba(17, 132, 17, 0.642);
+  border-radius: 2px;
+}
+.aeld{
+  width: 300px;
+  height: 300px;
+  border-radius:50% ;
+  position: relative;
+  left:620px;
+}
+.aeldtext{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 60px;
+  font-style : normal;
+  width: 400px;
+  color: #fff;
+  float: right;
+  position: relative;
+  right: 150px;
+  bottom: 55px;
+  text-align: center;
+}
+.aeldtext:hover{
+  background-color: rgba(17, 132, 17, 0.642);
+  border-radius: 2px;
+}
+.gld{
+  width: 300px;
+  height: 300px;
+  border-radius:50% ;
+  position: relative;
+  left: 160px;
+}
+.pbld{
+  width: 300px;
+  height: 300px;
+  border-radius:50% ;
+  position: relative;
+  left: 630px;
+}
+
+.pbldtext{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 60px;
+  font-style : normal;
+  width: 400px;
+  color: #fff;
+  float: right;
+  position: relative;
+  right: 150px;
+  text-align: center;
+  bottom: 60px;
+}
+.pbldtext:hover{
+  background-color: rgba(17, 132, 17, 0.642);
+  border-radius: 2px;
+}
+.gldtext{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 60px;
+  font-style : normal;
+  width: 400px;
+  margin-left : 100px;
+  color: #fff;
+}
+.gldtext:hover{
+  background-color: rgba(17, 132, 17, 0.642);
+  border-radius: 2px;
+}
+.footerld{
+  width: 97.5%;
+  background-color: rgb(7, 90, 11,0.5);
+  overflow: hidden;
+  height: 50px; 
+  padding: 10px 20px; 
+  font-size: 16px; 
+  line-height: 20px; 
+  position: relative;
+  /* top: 100px; */
+    color: white; 
+border-radius: 10px; 
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.contactld {
+  float: left;
+  margin-bottom: 100px;
+  margin-top: 10px;
+}
+.emailld {
+  color: #ffffff;
+  margin-bottom: 100px;
+  margin-top: 10px;
+}
+.gmailld {
+  float: left;
+  margin-right: 0px;
+  margin-bottom: 100px;
+  margin-top: 15px;
+  width: 30px;
+  height: 20px;
+}
+.Ratingld {
+  float: right;
+  margin-bottom: 100px;
+  margin-top: 15px;
+  margin-right: 100px;
+  margin-left: 100px;
+  color: #f4f4f4;
+  font-size: larger;
+  font-weight: bold;
+  text-decoration: none; 
+  transition: color 0s;
+}
+.Ratingld:hover {
+  color: rgb(237, 242, 100);
+}
+/*-------zeiad giraffe---------*/
+.giraffebody {
+  background: linear-gradient(270deg, #FFA500 0%, #B3C68B 100%);
+  margin: 0;
+  min-height: 100vh;
+  position: relative;
+  
+}
+
+.giheader {
+  background-color: transparent;
+}
+
+.search-button {
+  padding: 8px 12px;
+  background-color: #32CD32;
+  color: #000000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #cc5500;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  margin-right: auto;
+}
+
+.nav-item {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.nav-item:hover {
+  color: #666;
+}
+
+.search-form {
+  display: flex;
+}
+
+.search-bar {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.gfootercontiner {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+
+.gfooter {
+  width: 97.5%;
+  background-color: #32CD32; 
+  overflow: hidden;
+  height: 50px;
+  padding: 5px 20px; 
+  font-size: 16px; 
+  line-height: 20px; 
+  color: white; 
+  border-radius: 20px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  top:500px;
+  position: relative;
+  
+}
+
+.gcontact {
+  color: #000000;
+  float: left;
+  margin-bottom: 100px;
+  margin-top: 10px;
+}
+
+.gemail {
+  color: #000000;
+  margin-bottom: 100px;
+  margin-top: 10px;
+}
+
+.ggmail {
+  float: left;
+  margin-right: 0px;
+  margin-bottom: 100px;
+  margin-top: 15px;
+  width: 30px;
+  height: 20px;
+}
+
+.gRating {
+  float: right;
+  margin-bottom: 100px;
+  margin-top: 15px;
+  margin-right: 100px;
+  margin-left: 100px;
+  color: #000;
+  font-size: larger;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0s;
+  
+}
+
+.gRating:hover {
+  color: red;
+}
+
+.smooth-edge {
+  border-radius: 10px;
+  overflow: hidden;
+  transition: border-radius 0.3s ease;
+}
+
+.smooth-edge:hover {
+  border-radius: 20px;
+}
+
+.video-container {
+  position: absolute;
+  top: 130%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+}
+.image-link {
+  position: absolute;
+  top: 103%;
+  bottom: 50%;
+  right: 72%; 
+  transform: translateX(-50%);
+}
+.video-text {
+  font-size: 30px;
+}
+
+/* salma oct */
+.s-body {
+  background-image: url('../Images/sea_background.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+.s-header {
+background-color: transparent;
+}
+
+.search-button {
+padding: 8px 12px;
+background-color: #51c77a; 
+color: #fff;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+background-color: #cc5500; 
+}
+.navbar {
+display: flex;
+align-items: center;
+}
+
+.logo {
+width: 100px;
+height: auto;
+margin-right: auto;
+right:10px;
+}
+
+.nav-item {
+margin-right: 20px;
+text-decoration: none;
+color: #333;
+transition: color 0.3s ease;
+ font-weight:bold;
+}
+
+.nav-item:hover {
+color: orange;
+}
+
+.search-form {
+display: flex;
+}
+
+.search-bar {
+padding: 8px;
+border: 1px solid #ccc;
+border-radius: 4px;
+margin-right: 10px;
+}
+
+.sstext {
+text-align-last: center;
+font-family: "Jolly Lodger", system-ui;
+font-weight: 400;
+font-style: normal;
+font-size:20px;
+}
+
+.stable {
+width: 40%; 
+border-collapse: collapse;
+}
+
+.stitle, .scontent {
+padding: 3px;
+border: 3px solid #ccc;         
+}
+
+.stitle {
+font-weight: bold;
+width: 20%; 
+}
+
+tr:hover {
+background-color: rgba(255, 255, 255, 0.7); /* Transparent white background */
+transition: background-color 0.3s ease;
+}
+
+
+#svideoContainer {
+  position: absolute;
+  top: 70%;
+  left:70%;
+  transform: translate(-50%,-50%);
+  cursor : move;
+}
+
+#siframe {
+position: absolute;
+top: 118%;
+left: 30%;
+}
+
+
+
+
+.stext{
+ font-family: "Brush Script MT", cursive;
+ position: absolute ;
+ color: white;
+ top: 110% ;
+ right: 5%;
+ text-shadow: 2px 2px 5px red;
+ animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+50% {
+  color: blue;
+}
+}
+
+
+.sflip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 350px;
+
+  margin-top: 80px;
+  margin-right: 10px;
+  margin-left:1030px;
+}
+
+.sflip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.sflip-card:hover .sflip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.sflip-card-front, .sflip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.sflip-card-front {
+  background-color: transparent;
+  color: black;
+}
+
+.sflip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.simage {
+width: 300px;
+height:  300px;
+position:absolute;
+left: 5%;
+top:122%;
+}
+
+
+.scolorful-button {
+padding: 20px 50px;
+border: none;
+border-radius: 50px; 
+cursor: pointer;
+transition: all 0.3s ease; 
+color: green;
+background-color:#98bbf5;
+position:absolute;
+left: 8%;
+top: 112%;
+ }
+
+
+
+.scolorful-button:hover {
+opacity: 0.8; 
+}
+
+.sfooter{
+position: absolute;
+top: 175%;
+width: 96.4%;
+border-radius: 10px;
+background-color: #4FA8DB;
+overflow: hidden;
+height: 50px; 
+padding: 20px 20px; 
+font-size: 18px; 
+line-height: 30px;   
+}
+.scontact {
+float: left;
+margin-bottom: 100px;
+margin-top: 10px;
+}
+.semail {
+color: #000000;
+margin-bottom: 100px;
+margin-top: 10px;
+}
+.sgmail {
+float: left;
+margin-right: 0px;
+margin-bottom: 100px;
+margin-top: 15px;
+width: 30px;
+height: 20px;
+}
+.sRating {
+float: right;
+margin-bottom: 100px;
+margin-top: 15px;
+margin-right: 100px;
+margin-left: 100px;
+color: #000;
+font-size: larger;
+font-weight: bold;
+text-decoration: none; 
+transition: color 0s;
+}
+.sRating:hover {
+color: red;
+}
+
+
+/* rwan tutle  */
+.bodyes {
+  background-image: url('../Images/sea_background.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  transition: background-image 0.5s ease;
+}
+.headeres {
+background-color: transparent;
+}
+
+.search-buttones{
+padding: 8px 12px;
+background-color: #51c77a; 
+color: #fff;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.search-buttones:hover {
+background-color: #cc5500;
+}
+.navbares {
+display: flex;
+align-items: center;
+}
+
+.logoes {
+width: 100px;
+height: auto;
+margin-right: auto;
+right:10px;
+}
+
+.nav-itemes {
+margin-right: 20px;
+text-decoration: none;
+color: #333;
+transition: color 0.3s ease;
+ font-weight:bold;
+}
+
+.nav-itemes:hover {
+color: orange;
+}
+
+.search-formes{
+display: flex;
+}
+
+.search-bares {
+padding: 8px;
+border: 1px solid #ccc;
+border-radius: 4px;
+margin-right: 10px;
+}
+.turtle_h3{
+    text-align: center;
+}
+.turtle_h2{
+ margin-left:180px;
+ margin-bottom:-30px;
+}
+
+.flash-cardes{
+  width: 380px; 
+  height: 410px;
+  
+  border: 4px solid rgb(189, 189, 36);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-left:50px;
+  margin-top:50px;
+}
+
+.flash-cardes .img_turtle {
+  width: 70%;
+  height: auto;
+  display: block;
+  border-left: 1px solid #ccc;
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 70%; 
+  height: 45%; 
+  max-width: 100%; 
+}
+
+.flash-cardes .textes {
+  padding: 10px;
+  text-align: left;
+  line-height: 1.7;
+  font-weight:bold;
+}
+
+.swimming_turtle{
+float:right;
+position: absolute;
+top: 340px;
+right: 30px;
+width: 50%;
+height: auto;
+}
+
+.imges{
+  
+   top:500px;
+  }
+
+.turtle_td  {
+    border: 3px solid yellow ;
+    border-collapse: collapse;
+    background-color: #66b97600;
+    border-radius: 10px;
+    border-color: black;
+    text-align:center;
+}
+.turtle_th {
+  border: 3px solid yellow ;
+  border-collapse: collapse;
+  background-color: #66b97600;
+  border-radius: 10px;
+  border-color: black;
+  text-align:center;
+}
+
+.turtle_ta{
+    float: top;
+    margin-right:30px;
+    margin-bottom:50px;
+    display: table;
+    width: 50%;
+    font-weight:bold;
+    
+}
+
+.turtle_tr:hover{
+   background-color:rgba(240, 235, 105, 0.475);
+}    
+
+
+#changeBgButton {
+  padding: 10px 20px; 
+  font-size: 16px; 
+  background-color: #b5ca14; 
+  color: #fff;
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+  position: relative;
+  left: 650px;
+  margin-bottom: 50px;
+}
+
+#changeBgButton:hover {
+  background-color: #989614; 
+}
+
+
+.footeres {
+  width: 97.5%;
+  background-color: #87CEEB; 
+  overflow: hidden;
+  height: 50px;
+  padding: 10px 20px; 
+  font-size: 16px; 
+  line-height: 20px; 
+  color: white; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.contactes {
+  float: left;
+  margin-bottom: 100px;
+  margin-top: 10px;
+}
+.emailes {
+  color: #000000;
+  margin-bottom: 100px;
+  margin-top: 10px;
+}
+.gmailes {
+  float: left;
+  margin-right: 0px;
+  margin-bottom: 100px;
+  margin-top: 15px;
+  width: 30px;
+  height: 20px;
+}
+.Ratinges {
+  float: right;
+  margin-bottom: 100px;
+  margin-top: 15px;
+  margin-right: 100px;
+  margin-left: 100px;
+  color: #000;
+  font-size: larger;
+  font-weight: bold;
+  text-decoration: none; 
+  transition: color 0s;
+}
+.Ratinges:hover {
+  color: red;
+}
+.jolly-lodger-regulares {
+font-family: "Jolly Lodger", system-ui;
+font-weight: 400;
+font-style: normal;
+font-size: 60px;
+transition: transform 0.3 ease;
+text-align: center;
+width: 300px;
+position: relative;
+left: 590px;
+}
+.jolly-lodger-regulares:hover{
+transform: scale(1.1);
+text-shadow: 2px 2px 4px rgba(226, 200, 49, 0.642);
+}
+
+/* login  */
+.custom-body-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+
+.logo {
+  margin-right: 20px; /* Adjust spacing between logo and menu */
+  height: 40px; /* Set the desired height of the logo */
+}
+
+.error {
+  color: red;
+}
+
+
+.h1login {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+
+.loginform {
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  padding: 20px;
+  border: 3px solid #ccc;
+  border-radius: 5px;
+  margin-left: 120px;
+}
+
+.lbellogin {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.txtloging {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+
+input[type="password"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+
+
+.logingbtn {
+  padding: 10px 20px;
+  background-color: rgb(0, 81, 255);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* saged edited */
+.tableJ {position: fixed;
+  bottom: 1%;
+  margin: 4px;
+  background-color: rgb(69, 47, 47);
+}
+
+
+
+.thrody {
+  text-align: left;
+}
+
+.tableJ,
+.thrody,
+.tdap {
+  border: 1px solid rgb(249, 245, 245);
+  border-collapse: collapse;
+}
+
+.apbody {
+  color: aliceblue;
+}
+.header-puffin {
+  position: fixed;
+  top:0;
+  width: 100%;
+  z-index: 1000;
+}
+.audiorody{position: fixed;
+  bottom: 270px;}
+  .audiorody::-webkit-media-controls-panel{
+      background-color: rgb(61, 50, 50);
+  }
+  .audiorody::-webkit-media-controls-play-button{
+      background-color: rgb(242, 242, 242);
+      border-radius: 50%;
+  }
+  .audiorody::-webkit-media-controls-current-time-display{
+      color: #ffffff;
+  }
+  .audiorody::-webkit-media-controls-time-remaining-display{
+      color: #fff3f3;
+  }
+  .audiorody::-webkit-media-controls-timeline{
+      border-radius: 40px;
+      background-color: rgb(255, 255, 255);
+  }
+  .audiorody::-webkit-media-controls-volume-slider{
+      background-color: rgb(240, 240, 240);
+      border-radius: 50px;
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+  .audiorody::-webkit-media-controls-mute-button{
+      background-color: rgb(255, 255, 255);
+      border-radius: 50%;
+  }
+  .audiorody::-webkit-media-controls-more-option-button{
+      background-color: #ffffff;
+  }
+
+  .navbarr {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logor {
+    width: 100px;
+    height: auto;
+    margin-right: auto;
+}
+
+.nav-itemr {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s ease;
+    font-weight: bold;
+}
+
+.nav-itemr:hover {
+    color: orange;
+}
+
+.search-formr {
+    display: flex;
+    align-items: center;
+}
+
+.search-barr {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+
+.search-buttonr {
+    padding: 8px 12px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #121212;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-buttonr:hover {
+    background-color: rgb(255, 145, 0);
+}
+
+.octlabel
+{
+  font-size: 35px;
+  margin: 20px;
+}
+
+/* rawan elph  */
+style.css
+.bodyra {
+    background-image: url('savanna.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
+.headerra {
+  background-color: transparent;
+
+  }
+
+.search-buttonra {
+  padding: 8px 12px;
+  background-color: #51c77a; 
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-buttonra:hover {
+  background-color: #cc5500; 
+}
+.navbarra {
+  display: flex;
+  align-items: center;
+}
+
+.logora {
+  width: 100px;
+  height: auto;
+  margin-right: auto;
+  right:10px;
+}
+
+.nav-itemra {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+   font-weight:bold;
+}
+
+.nav-itemra:hover {
+  color: orange;
+}
+
+.search-formra {
+  display: flex;
+}
+
+.search-barra {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.jolly-lodgerra {
+  font-family: "Jolly Lodger", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  text-align: center;
+  transition: transform 0.3 ease;
+  text-align: center;
+  width: 300px;
+  position: relative;
+  left: 590px;
+}
+.jolly-lodgerra:hover{
+  transform: scale(1.1);
+  text-shadow: 2px 2px 4px rgba(17, 132, 17, 0.642);
+}
+.afr_ele_h3{
+  text-align: center;
+}
+.afr_ele_ta{
+  height: 130px;
+  width: 80% ;
+  justify-content: center;
+  align-items: center;
+  margin-left: 150px;
+  margin-top: 75px;
+  text-align:center;
+ }
+ .afr_ele_td{
+  border: 3px solid rgb(16, 82, 23);
+  border-collapse: collapse;
+  border-radius: 6px ;
+  height:50px;
+  font-size: 15px;
+
+ }
+ .sounddra{
+  position:relative;
+  top:-20px;
+}
+
+
+
+.afr_ele_td:hover{
+ background-color:rgb(255, 255, 255,0.5);
+}    
+.verra{
+  width: 300px; 
+  height: 320px; 
+  overflow: hidden;
+  font-size: large;
+  line-height: 1.5;
+  margin-left:200px ;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.behra{
+  margin-top: 50px;
+  margin-left: 200px;
+  width: 300px;
+  border-radius: 3px;
+  text-align: center;
+}
+.behra:hover,.verra:hover{
+  background-color: rgb(204, 204, 204,0.7);
+}
+
+.trunkra{
+  width: 600px;
+  height: 400px;
+  display: flex;
+  float: right;
+  position: relative;
+  bottom: 390px;
+  right: 100px;
+  border-radius:4px ;
+}
+.verrra{
+  width: 350px; 
+  height: 300px;
+  display: flex;
+  font-size: large;
+  line-height: 1.7;
+  border-radius: 3px;
+  text-align: center;
+  justify-content: center;
+}
+.dietra{
+  margin-top: 50px;
+  width: 350px;
+  border-radius: 3px;
+  text-align: center;
+}
+.dietra:hover,.verrra:hover{
+  background-color: rgb(204, 204, 204,0.7);
+}
+
+.allra{
+  position: relative;
+  float: right;
+  right: 270px;
+  bottom: 430px;
+}
+
+.elera{
+  width: 500px;
+  height: 400px;
+  margin-left: 150px;
+}
+
+
+
+.flash-cardra {
+  width: 380px; 
+  height: 480px;
+  border: 4px solid rgba(2, 61, 9, 0.815);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-left:120px;
+  margin-top:100px;
+  margin-bottom:0 ;
+  padding-bottom: 0;
+}
+
+.flash-cardra .textra {
+  padding: 10px;
+ /* text-align: center;*/
+  line-height: 1.7;
+  font-weight:bold;
+}
+.yarabra{
+  text-align: center;
+}
+.flash-cardra:hover{
+  background-color: #e1d8d8b0;
+}
+.locationra{
+  position: relative;
+  float: right;
+  bottom: 550px;
+  right: 70px;
+  margin-bottom:0 ;
+  padding-bottom: 0;
+  
+}
+
+.h3aera{
+  text-align: center;
+}
+.locationnnra{
+  border-radius: 10px;
+}
+
+.boxxra{
+  position: relative;
+  height: 10vh; 
+  top: 300px;
+  align-items: center; 
+  right: 400px;
+}
+.image-boxra {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px; 
+  height: 400px; 
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+.image-boxra .imgra {
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+
+.image-boxra img.active {
+  display: block;
+}
+.Clickra{
+  padding: 10px 20px; 
+  font-size: 16px; 
+  background-color: #4CAF50; 
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease;
+  position: relative;
+  left: 560px;
+  top: 250px;
+}
+.Clickra:hover{
+    background-color: #1d401f; 
+  }
+
+.iframera{
+  width: 500px;
+  height: 400px ;
+  float: right;
+  position: relative;
+  left: 420px;
+  top: 50px;
+}
+
+.footerra{
+  width: 97.5%;
+  background-color: rgb(7, 90, 11,0.5);
+  overflow: hidden;
+  height: 50px; 
+  padding: 10px 20px; 
+  font-size: 16px; 
+  line-height: 20px; 
+  position: relative;
+  top: 100px;
+    color: white; 
+border-radius: 10px; 
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.contactra {
+  float: left;
+  margin-bottom: 100px;
+  margin-top: 10px;
+}
+.emailra {
+  color: #f1f1f1;
+  margin-bottom: 100px;
+  margin-top: 10px;
+}
+.gmailra {
+  float: left;
+  margin-right: 0px;
+  margin-bottom: 100px;
+  margin-top: 15px;
+  width: 30px;
+  height: 20px;
+}
+.Ratingra {
+  float: right;
+  margin-bottom: 100px;
+  margin-top: 15px;
+  margin-right: 100px;
+  margin-left: 100px;
+  color: #ffffff;
+  font-size: larger;
+  font-weight: bold;
+  text-decoration: none; 
+  transition: color 0s;
+}
+.Ratingra:hover {
+  color: rgb(237, 244, 101);
+}
+
+
+
+
+
+
+
+
+
+
+
+
