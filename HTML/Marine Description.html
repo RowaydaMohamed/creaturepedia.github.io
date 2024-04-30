@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head >
+	<meta charset="UTF-8">
+    <title>Creaturepedia</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="../Images/Creaturepedia.png">
+    
+
+</head>
+<body class="marinebody">
+        <!-- <header class="v-header"> -->
+          <header class="headerld">
+            <div class="navbarld">
+            <img src="../Images/Creaturepedia.png" alt="Logo" class="logold">
+            <a href="./Home.html" class="nav-itemld">Home</a>
+            <a href="#" class="nav-itemld">About</a>
+            <form action="#" class="search-formld">
+            <input type="text" placeholder="Search..." class="search-barld">
+            <button type="submit" class="search-buttonld">Search</button>
+            </form>
+            </div>  
+        </header>
+       
+        <h1 class="vcaption"> MARINE ANIMALS </h1>
+
+        <div class="vcontainer">
+        <a href="./Octobus.html" target="_blank" class="vcircular-image-link">
+            <div class="vcircular-image" id="octopus">
+                <img src="../Images/Octopus.png" alt="Image 1" class="vimg1">
+            </div>
+        </a>
+        <a href="./Turtle.html" target="_blank" class="vcircular-image-link">
+            <div class="vcircular-image" id="turtle">
+                <img src="../Images/greenseaturtle.png" alt="Image 2" class="vimg2">
+            </div>
+        </a>
+        <a href="./orca.html" target="_blank" class="vcircular-image-link">
+            <div class="vcircular-image" id="whale">
+                <img src="../Images/Orca Whale.png" alt="Image 3" class="vimg3">
+            </div>
+        </a>
+    </div>
+
+   
+
+    <h2 class="voctopuscaption">Octopus</h2>
+  <ul class="voctopus-facts">
+    <li class="vli"> Use their arms to capture and manipulate prey.</li>
+    <li class="vli">Found in oceans worldwide.</li>
+    <li class="vli">Among the most intelligent invertebrates.</li>
+  </ul>
+
+  
+  <h2 class= "vturtlecaption">Grean Sea Turtle</h2>
+  <ul class="vgreen-turtle-facts">
+    <li class="vli">Over 350 species worldwide.</li>
+    <li class="vli">Four legs or flippers for swimming.</li>
+    <li class="vli">Some, like leatherbacks, have leathery shells.</li>
+  </ul>
+
+  
+  <h2 class="vwhalecaption">Orca Whale</h2>
+  <ul class="vorca-whale-facts">
+    <li class="vli">Known to hunt cooperatively in pods to catch larger prey.</li>
+    <li class="vli">Among the most intelligent marine mammals.</li>
+    <li class="vli">Known to hunt cooperatively in pods to catch larger prey
+</li>
+  </ul>
+
+
+  <div class="vtypung-effect" id="vtyping-effect"></div>
+
+  <a href="./shark.html" target="_blank" class="vcircular-image-link">
+        <h3>Are you intrested in White Sharks? 
+          <br>Click here to read more about them</h3>
+</a>
+  
+  <div class="vfooter">
+            <a href="./feedback.html" class="vRating">Rating</a>
+            <h3 class="vcontact">Contact Us: </h3>
+            <img src="../Images/email.png" alt="Logo" class="vgmail">
+            <p class="vemail">creaturepedia@gmail.com</p> 
+                      
+  </div> 
+
+  <script>
+    const text = "Click on the photos for more info.";
+
+function displayTextWithTypingEffect() {
+  const typingElement = document.getElementById("vtyping-effect");
+  let index = 0;
+
+  function addCharacter() {
+    typingElement.textContent += text[index];
+    index++;
+
+    if (index < text.length) {
+      setTimeout(addCharacter, 100); // Adjust the delay (in milliseconds) as needed
+    }
+  }
+
+  addCharacter();
+}
+
+displayTextWithTypingEffect();
+  </script>
+
+</body>
+</html>

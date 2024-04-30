@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Feedback</title>
+    <style>
+        .feedbackS {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            background-image: url('15082_2-24882.jpg'); /* Path to your background image */
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: repeat;
+        }
+.headersf {
+  background-color: transparent;
+  }
+
+.search-buttonsf{
+  padding: 8px 12px;
+  background-color: #51c77a; 
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 10px;
+  height: 40px;
+}
+
+.search-buttonsf:hover {
+  background-color: #cc5500;
+}
+.navbarsf {
+  display: flex;
+  align-items: center;
+}
+
+.logosf {
+  width: 100px;
+  height: auto;
+  margin-right: auto;
+  right:10px;
+}
+
+.nav-itemsf {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+   font-weight:bold;
+}
+
+.nav-itemsf:hover {
+  color: orange;
+}
+
+.search-formsf{
+  display: flex;
+}
+
+.search-barsf {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+         .containerSaged {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 30px;
+            box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+        }
+        .headerFeedback {
+            text-align: center;
+            font-size: 50px;
+        }
+        form {
+            margin-top: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 0;
+            font-weight:bold;
+        }
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #3edb1e;
+            border-radius: 4px;
+            resize: vertical;
+        }
+        input[type="submit"] {
+            background-color: green;
+            color: white;
+            padding: 15px 30px; 
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        
+        #logo-container {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            cursor: pointer; 
+        }
+        #logo-img {
+            width: 100px; 
+            height: auto; 
+        } 
+        .buttonfeed{
+            position: relative;
+            left: 320px;
+        }
+
+        .footersf {
+    width: 97.5%;
+    background-color: #27af4e; 
+    overflow: hidden;
+    height: 50px;
+    padding: 10px 20px; 
+    font-size: 16px; 
+    line-height: 20px; 
+    color: white; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-top: 135px;
+}
+
+.contactsf {
+    float: left;
+    margin-bottom: 100px;
+    margin-top: 10px;
+}
+.emailsf {
+    color: #000000;
+    margin-bottom: 100px;
+    margin-top: 10px;
+}
+.gmailsf {
+    float: left;
+    margin-right: 0px;
+    margin-bottom: 100px;
+    margin-top: 15px;
+    width: 30px;
+    height: 20px;
+}
+.Ratingsf {
+    float: right;
+    margin-bottom: 100px;
+    margin-top: 15px;
+    margin-right: 100px;
+    margin-left: 100px;
+    color: #000;
+    font-size: larger;
+    font-weight: bold;
+    text-decoration: none; 
+    transition: color 0s;
+}
+.Ratingsf:hover {
+    color: red;
+}
+
+    </style>
+    
+</head>
+<body class="feedbackS">
+    <header class="headersf">
+        <div class="navbarsf">
+<img src="../Images/Creaturepedia.png" alt="Logo" class="logosf">
+<a href="./Home.html" class="nav-itemsf">Home</a>
+<a href="#" class="nav-itemsf">About</a>
+<form action="#" class="search-formsf">
+   <input type="text" placeholder="Search..." class="search-barsf">
+   <button type="submit" class="search-buttonsf">Search</button>
+</form>
+        </div>  
+</header>
+
+<div class="containerSaged">
+    <h1 class="headerFeedback"><pre>𝐅𝐞𝐞𝐝𝐛𝐚𝐜𝐤</pre></h1>
+    <form action="./Home.html" method="post">
+        <label for="animal_name">Animal name:</label>
+        <input type="text" id="animal_name" name="animal_name" required>
+
+        <label for="feedback">Feedback:</label>
+        <textarea id="feedback" name="𝓕𝓮𝓮𝓭𝓫𝓪𝓬𝓴" rows="5" required></textarea>
+
+        <input type="submit" value="Submit Feedback" id="thankyoubutton" onclick="alert('Thank you for your feedback :D')">
+    </form>
+</div>
+
+    <div class="footersf">
+        <a href="#" class="Ratingsf">Give Us Your Feedback :)</a>
+        <h3 class="contactsf">Contact Us: </h3>
+        <img src="../Images/email.png" alt="Logo" class="gmailsf">
+        <p class="emailsf">creaturepedia@gmail.com</p> 
+        
+        
+    </div>
+<!-- <script>
+const thankYouButton = document.getElementsById('thankYouButton');
+
+    thankYouButton.addEventListener('click', () => {
+        alert('Thank you!');
+    });
+    </script> -->
+    
+</body>
+</html>
